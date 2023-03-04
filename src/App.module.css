@@ -1,0 +1,11 @@
+.wrapper {
+    max-width: 70rem; /*a soma de todos os componentes*/
+    margin: 2rem auto; /*faz com que fique centralizado*/
+    padding: 0 1rem; /*serve para caso diminua o tamanho da tela o conteudo nao fique grudado nas laterais*/
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /*a primeira coluna tem um valor fixo e o segundo ocupado o restante que sobrar (1fr)*/
+    gap: 2rem; /*espacamento entre as colunas*/
+    align-items: flex-start; /*faz com que o sidebar e o main fique ajustado para o topo*/
+    
+}

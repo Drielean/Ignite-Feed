@@ -1,0 +1,12 @@
+/* criamos as class, lembrando que na maioria das vezes quando utilizamos Module nos tentamos apenas utilizar classes e nao utilizar id ou qualquer outro tipo de selecao */
+
+.header {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0; /*ao inves de usar um align-items nesse caso foi utilizado o padding para distancia um pouco o elemento no topo e embaixo*/
+}
+
+.header img {
+    height: 2rem;
+}

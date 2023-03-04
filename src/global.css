@@ -1,0 +1,33 @@
+/* pesquisar "tailwindcss", nele consegue ver varias possibilidade de cores para utilizar em uma aplicacao */
+/* definir variaveis para ter cores padrao na nossa aplicacao */
+:root {
+    --white: #ffffff;
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-600: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+
+    --green-500: #00875f;
+}
+
+/* esse CSS inicial faz com que nunca aumente suas proporcoes, mais sim que esprema o elemento para dentro */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gray-900);   /*aqui estou aplicando a cor atraves de uma variavel*/
+    color: var(--gray-300);
+    -webkit-font-smoothing: antialiased; /* faz com que aplique nos navegador a utilizacao de fonts mais finas quando utilizamos fonts que nao sao padrao do sistema*/
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /*sempre utilizar fonte de medidas relativas, pois melhora a acessibilidade da nossa aplicacao*/
+}
