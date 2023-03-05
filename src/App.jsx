@@ -1,9 +1,10 @@
 import { Header } from './Components/Header';
-import { Post } from './Post';
+import { Post } from './Components/Post';
+import { Sidebar } from './Components/Sidebar';
 
 import styles from './App.module.css';
 import './global.css'; //para importar o CSS no React pode ser feito nesse formato
-import { Sidebar } from './Components/Sidebar';
+
 
 export function App() {
 

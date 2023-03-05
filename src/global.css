@@ -10,9 +10,17 @@
     --gray-800: #202024;
     --gray-900: #121214;
 
+    --green-300: #00B37E;
     --green-500: #00875f;
+
+    --red-500: #F75A68;
 }
 
+/* esse focus 'e para globalmente tirar o focus padrao branco e mudar a cor para verde */
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
 /* esse CSS inicial faz com que nunca aumente suas proporcoes, mais sim que esprema o elemento para dentro */
 * {
     margin: 0;

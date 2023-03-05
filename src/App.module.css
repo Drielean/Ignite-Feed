@@ -9,3 +9,14 @@
     align-items: flex-start; /*faz com que o sidebar e o main fique ajustado para o topo*/
     
 }
+
+/* deixar a aplicacao resposiva visualmente */
+@media (max-width: 768px) {
+    html {
+        font-size: 87,5%;
+    }
+    
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
